@@ -11,9 +11,9 @@ function Header() {
                 <li  className="max-md:hidden">CONTACT</li>
             </ul>
             <ul className="flex items-center justify-center gap-x-8 max-md:hidden">
-                <li><img className="w-5" src="public/icons/youtube.png"></img></li>
-                <li><img className="w-5" src="public/icons/instagram.png"></img></li>
-                <li><img className="w-5" src="public/icons/facebook.png"></img></li>
+                <li><img className="w-5" src="src/assets/icons/youtube.png"></img></li>
+                <li><img className="w-5" src="src/assets/icons/instagram.png"></img></li>
+                <li><img className="w-5" src="src/assets/icons/facebook.png"></img></li>
                 <li><button className="hover:bg-white hover:text-black border-[1px] border-white w-32 h-10 font-sans text-xs tracking-widest font-bold text-white" >LET'S TALK</button></li>
             </ul>
         </div>
