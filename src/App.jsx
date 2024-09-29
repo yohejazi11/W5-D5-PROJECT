@@ -20,17 +20,17 @@ function App() {
             <button className="hover:bg-[#be7b68] hover:text-white border-[1px] border-[#be7b68] w-40 h-10 text-[#be7b68] font-sans text-xs font-bold tracking-widest	">JOIN INSIDER</button>
             <div className='flex justify-between items-end w-[100%] h-[50vh] pr-[10%] max-md:h-[20vh] max-md:w-[90%]'>
               <div className='flex flex-col justify-center items-start gap-[0.75rem] w-[2vw] '>
-                <img className='w-8' src='src/assets/icons/youtubep.png'></img>
+                <img className='w-8' src='public/icons/youtubep.png'></img>
                 <h1 className='font-bold text-[2rem]'>1.2M+</h1>
                 <p className='font-sans font-bold text-slate-500 tracking-wider text-sm'>SUBSCRIBERS</p>
               </div>
               <div className='flex flex-col justify-center items-start gap-[0.75rem] w-[2vw]'>
-                <img src='src/assets/icons/instagramp.png'></img>
+                <img src='public/icons/instagramp.png'></img>
                 <h1 className='font-bold text-[2rem]'>1.8M+</h1>
                 <p className='font-sans font-bold text-slate-500 tracking-wider text-sm'>FOLLOWERS</p>
               </div>
               <div className='flex flex-col justify-center items-start gap-[0.75rem] w-[2vw]'>
-                <img className='w-[100%]' src='src/assets/icons/rss-feed.png'></img>
+                <img className='w-[100%]' src='public/icons/rss-feed.png'></img>
                 <h1 className='font-bold text-[2rem]'>800K+</h1>
                 <p className='font-sans font-bold text-slate-500 tracking-wider text-sm'>READERS</p>
               </div>

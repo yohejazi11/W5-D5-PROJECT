@@ -14,9 +14,9 @@ function Footer() {
                     <li>Contact</li>
                 </ul>
                 <ul className="flex gap-8 items-center ">
-                <li><img className="w-5" src="src/assets/icons/youtubep.png"></img></li>
-                <li><img className="w-5" src="src/assets/icons/instagramp.png"></img></li>
-                <li><img className="w-5" src="src/assets/icons/facebookp.png"></img></li>
+                <li><img className="w-5" src="public/icons/youtubep.png"></img></li>
+                <li><img className="w-5" src="public/icons/instagramp.png"></img></li>
+                <li><img className="w-5" src="public/icons/facebookp.png"></img></li>
                 </ul>
             </div>
             <div className="text-slate-500">
