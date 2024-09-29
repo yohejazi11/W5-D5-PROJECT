@@ -4,6 +4,8 @@ import Header from './component/Header'
 import Card from './component/Card'
 import Footer from './component/Footer'
 import Cardsmall from './component/Cardsmall'
+import Pinksection from './component/Pinksection'
+import Susponersection from './component/Susponersection'
 
 function App() {
 
@@ -46,16 +48,8 @@ function App() {
             <img className='z-10 absolute top-[20%] left-[-15%] h-[75vh] max-md:h-[40vh] max-md:w-[90%] max-md:left-[5%] max-md:top-[15vh]' src='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-hero-img.jpg'></img>
           </div>
         </main>
-        <div className='flex flex-col justify-center items-center h-[40vh] w-[100%]'>
-          <h1 className='font-sans text-sm tracking-widest font-semibold	'>AS FEATURED IN</h1>
-          <ul className='flex w-[full] px-[10vw] justify-between gap-x-[3rem] max-md:flex-wrap max-md:px-[1rem] max-md:justify-center'>
-            <li className='w-[40%]'><img src='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-featured-in-logo-1.svg'></img></li>
-            <li className='w-[40%]'><img src='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-featured-in-logo-2.svg'></img></li>
-            <li className='w-[40%]'><img src='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-featured-in-logo-3.svg'></img></li>
-            <li className='w-[40%]'><img src='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-featured-in-logo-4.svg'></img></li>
-            <li className='w-[40%]'><img src='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-featured-in-logo-5.svg'></img></li>
-          </ul>
-        </div>
+
+        <Susponersection></Susponersection>
         <div className='w-[100%] px-[10vw] max-md:px-[5vw]'>
           <div className='flex justify-between items-center align-middle max-md:flex-col max-md:mb-10 max-md:gap-y-4'>
             <h1 className='text-[3.5rem] mb-10 max-md:text-[28px] max-md:mb-0'>Latest Reviews</h1>
@@ -179,12 +173,7 @@ function App() {
           </div>
         </div>
 
-        <div className='flex flex-col justify-center gap-6 items-center px-[20vw] h-[70vh] max-md:h-[40vh] bg-[#be7b68] max-md:px-[5vw]'>
-          <h1 className='font-bold text-[3.5rem] text-white text-center max-md:text-[28px]'>Invite me to your restaurant.
-            Get exposure of millions food lovers.</h1>
-          <p className='text-white text-center text-[1rem] w-[70%] max-md:w-[90%]'>Lorem dui tincidunt nunc viverra morbi et maecenas quam adipiscing integer amet eget blandit phasellus est natoque blandit facilisi eleifend.</p>
-          <button className=' hover:bg-[#be7b68] hover:text-white hover:border-white border-[#be7b68] border-[1px] bg-white  px-[23px]  text-[#be7b68] h-10 w-[15%] font-sans text-xs font-bold tracking-widest max-md:w-[40%]'>LET'S TALK</button>
-        </div>
+        <Pinksection></Pinksection>
         <Footer></Footer>
       </div>
     </>

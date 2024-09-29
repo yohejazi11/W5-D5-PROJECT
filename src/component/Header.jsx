@@ -1,14 +1,15 @@
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
         <div className="  flex items-center justify-between absolute top-[5vh] w-[100%] px-[10%] z-[99999]">
             <ul className="flex items-center text-[.75rem] gap-5 font-sans font-bold">
                 <li><img src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-site-logo.svg"></img></li>
-                <li className="max-md:hidden">HOME</li>
-                <li  className="max-md:hidden">ABOUT</li>
+                <li className="max-md:hidden"><Link to='/home'>HOME</Link></li>
+                <li  className="max-md:hidden"><Link to='/about'>ABOUT</Link></li>
                 <li  className="max-md:hidden">REVIEWS</li>
                 <li  className="max-md:hidden">VIDEOS</li>
-                <li  className="max-md:hidden">CONTACT</li>
+                <li  className="max-md:hidden"><Link to='/contact'>CONTACT</Link></li>
             </ul>
             <ul className="flex items-center justify-center gap-x-8 max-md:hidden">
                 <li><img className="w-5" src="src/assets/icons/youtube.png"></img></li>
